@@ -1,4 +1,65 @@
-html {
+// variables
+$white: #f8f8f8;
+$black: #1e1e1e;
+
+// font
+@font-face {
+  font-family: "comfortaa";
+  src: url("../fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "nexa";
+  src: url("../fonts/Nexa Bold.otf");
+}
+
+html, body {
   margin: 0;
   padding: 0;
+  background-color: $black;
+  height: 100vh;
+  width: 100vw;
+}
+
+// font size and weight
+.h1 {
+  margin: 0;
+  font-family: "nexa", sans-serif;
+  font-weight: 700;
+  font-size: 42pt;
+}
+
+.h2 {
+  font-weight: 600;
+  font-size: 32pt;
+}
+
+.h3 {
+  font-weight: 500;
+  font-size: 24pt;
+}
+
+.h4 {
+  font-weight: 400;
+  font-size: 22pt;
+}
+
+.h5 {
+  font-weight: 300;
+  font-size: 18pt;
+}
+
+.h6 {
+  font-weight: 200;
+  font-size: 16pt;
+}
+
+.normal-text {
+  font-weight: 100;
+  font-size: 12pt;
+}
+
+* {
+  font-family: "comfortaa", sans-serif;
+  color: $white;
 }
