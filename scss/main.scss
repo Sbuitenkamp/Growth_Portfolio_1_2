@@ -16,9 +16,9 @@ $black: #1e1e1e;
 html, body {
   margin: 0;
   padding: 0;
-  background-color: $black;
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 // font size and weight
