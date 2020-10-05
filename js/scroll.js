@@ -1,11 +1,11 @@
-let body;
-const base = 0.35;
 window.onload = () => {
-    body = document.getElementById("background");
-    body.style.opacity = base.toString();
-};
+    const base = 0.10;
+    const background = document.getElementById("background");
+    const body = document.getElementById("content");
+    background.style.opacity = base.toString();
 
-window.onscroll = () => {
-    const opacity = "0." + window.pageYOffset.toString().padStart(3, "0");
-    if (opacity > base) body.style.opacity = opacity;
+    body.addEventListener('scroll', () => {
+        const opacity = "0." + body.scrollTop.toString().padStart(3, "0");
+        if (opacity > base) background.style.opacity = opacity;
+    }, { passive: true });
 };
