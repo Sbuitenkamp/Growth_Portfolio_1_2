@@ -1,0 +1,58 @@
+@import 'main';
+
+.body {
+  &__content {
+    &__main {
+      &__landing {
+        &__personal-info {
+          width: 50%;
+          height: 14%;
+          margin: 4% 0 0;
+          float: left;
+
+          &__text {}
+
+          a {
+            color: $orange;
+
+            &:hover {
+              color: $dark-orange;
+              transition: 0.3s;
+            }
+          }
+        }
+
+        &__profile-pic {
+          float: right;
+          width: 10%;
+          height: 10%;
+          background: url("../img/anonymous.jpg") no-repeat center;
+          background-size: cover;
+          margin: 5% 15%;
+
+          &__overlay {
+            background-color: rgba(0, 0, 0, 0.95);
+            transition: 0.3s ease;
+            height: 80%;
+            width: 100%;
+            padding-top: 20%;
+            opacity: 0;
+            text-align: center;
+            cursor: default;
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+
+        &__skills {
+          width: 100%;
+          height: 20%;
+          float: left;
+          margin: 10% 0;
+        }
+      }
+    }
+  }
+}

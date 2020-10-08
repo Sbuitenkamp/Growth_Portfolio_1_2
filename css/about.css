@@ -162,8 +162,45 @@ html, body {
   width: 5px;
 }
 
-.body__content__main__landing {
-  height: 200%;
+.body__content__main__landing__personal-info {
+  width: 50%;
+  height: 14%;
+  margin: 4% 0 0;
+  float: left;
+}
+.body__content__main__landing__personal-info a {
+  color: #D97C0C;
+}
+.body__content__main__landing__personal-info a:hover {
+  color: #784507;
+  transition: 0.3s;
+}
+.body__content__main__landing__profile-pic {
+  float: right;
+  width: 10%;
+  height: 10%;
+  background: url("../img/anonymous.jpg") no-repeat center;
+  background-size: cover;
+  margin: 5% 15%;
+}
+.body__content__main__landing__profile-pic__overlay {
+  background-color: rgba(0, 0, 0, 0.95);
+  transition: 0.3s ease;
+  height: 80%;
+  width: 100%;
+  padding-top: 20%;
+  opacity: 0;
+  text-align: center;
+  cursor: default;
+}
+.body__content__main__landing__profile-pic__overlay:hover {
+  opacity: 1;
+}
+.body__content__main__landing__skills {
+  width: 100%;
+  height: 20%;
+  float: left;
+  margin: 10% 0;
 }
 
-/*# sourceMappingURL=research.css.map */
+/*# sourceMappingURL=about.css.map */

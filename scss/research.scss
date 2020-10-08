@@ -1,6 +1,10 @@
 @import "main";
-
 .body {
-  &__background {
+  &__content {
+    &__main {
+      &__landing {
+        height: 200%;
+      }
+    }
   }
 }
