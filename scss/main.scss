@@ -280,10 +280,10 @@ html, body {
           opacity: 0;
           overflow: hidden;
 
-          //&#execution {
-          //  display: block;
-          //  opacity: 1;
-          //}
+          &#execution {
+            display: block;
+            opacity: 1;
+          }
 
           &.opened {
             display: block;
