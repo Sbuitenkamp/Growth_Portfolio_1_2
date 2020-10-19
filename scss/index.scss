@@ -1,1 +1,28 @@
 @import "main";
+
+.body {
+  &__content {
+    &__main {
+      overflow: hidden;
+
+      &__landing {
+        &__list {
+          &__element {
+            &__link {
+              color: $orange;
+              transition: .2s;
+
+              &:hover {
+                color: $dark-orange;
+              }
+            }
+          }
+        }
+
+        &__text {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

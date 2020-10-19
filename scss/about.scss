@@ -3,14 +3,14 @@
 .body {
   &__content {
     &__main {
+      height: 300%;
+
       &__landing {
         &__personal-info {
           width: 50%;
-          height: 14%;
+          height: 8%;
           margin: 4% 0 0;
           float: left;
-
-          &__text {}
 
           a {
             color: $orange;
@@ -24,8 +24,8 @@
 
         &__profile-pic {
           float: right;
-          width: 10%;
-          height: 10%;
+          width: 9%;
+          height: 5%;
           background: url("../img/anonymous.jpg") no-repeat center;
           background-size: cover;
           margin: 5% 15%;
@@ -35,7 +35,7 @@
             transition: 0.3s ease;
             height: 80%;
             width: 100%;
-            padding-top: 20%;
+            padding-top: 14%;
             opacity: 0;
             text-align: center;
             cursor: default;
@@ -48,9 +48,55 @@
 
         &__skills {
           width: 100%;
+          height: 10%;
+          float: left;
+          margin: 0;
+          
+          &__container {
+            width: 30%;
+            float: left;
+            margin: 0 1%;
+          }
+        }
+
+        &__experience {
+          width: 100%;
+          height: 13%;
+          float: left;
+          margin: 2% 0;
+
+          &__container {
+            width: 30%;
+            margin: 0 1%;
+            float: left;
+
+            &__location {
+              a {
+                color: $orange;
+                transition: .2s;
+
+                &:hover {
+                  color: $dark-orange;
+                }
+              }
+            }
+          }
+        }
+
+        &__education {
+          width: 100%;
           height: 20%;
           float: left;
-          margin: 10% 0;
+
+          &__container {
+            width: 30%;
+            margin: 0 1%;
+            float: left;
+
+            &__location {
+              color: $orange;
+            }
+          }
         }
       }
     }

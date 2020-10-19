@@ -56,6 +56,10 @@ html, body {
   color: #f8f8f8;
 }
 
+.orange {
+  color: #D97C0C;
+}
+
 .body {
   margin: 0 auto;
   height: 100vh;
@@ -86,6 +90,7 @@ html, body {
   margin-right: 3%;
   float: right;
   height: 7%;
+  width: 25%;
 }
 .body__content__header__element {
   float: left;
@@ -94,6 +99,7 @@ html, body {
   text-decoration: none;
   padding: 14px 16px;
   transition: 0.1s;
+  outline: none;
 }
 .body__content__header__element--active {
   border-bottom: solid #f8f8f8 2px;
@@ -103,8 +109,11 @@ html, body {
   color: #D97C0C;
 }
 .body__content__header__dropdown {
+  width: 36.4%;
   float: left;
   overflow: hidden;
+  transition: 0.2s;
+  outline: none;
 }
 .body__content__header__dropdown__drop-button {
   text-align: center;
@@ -113,6 +122,7 @@ html, body {
   display: block;
   transition: 0.1s;
   box-sizing: border-box;
+  outline: none;
 }
 .body__content__header__dropdown__drop-button:hover {
   border-bottom: solid #f8f8f8 2px;
@@ -123,6 +133,7 @@ html, body {
   position: absolute;
   min-width: 160px;
   z-index: 2;
+  transition: 0.5s;
 }
 .body__content__header__dropdown__content__element {
   float: none;
@@ -131,10 +142,14 @@ html, body {
   display: block;
   transition: 0.1s;
   box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 .body__content__header__dropdown__content__element:hover {
   border-bottom: solid #f8f8f8 2px;
   color: #D97C0C;
+}
+.body__content__header__dropdown:hover {
+  background-color: rgba(0, 0, 0, 0.9);
 }
 .body__content__header__dropdown:hover .body__content__header__dropdown__content {
   display: block;
@@ -146,8 +161,122 @@ html, body {
   height: 150%;
   overflow-y: scroll;
 }
+.body__content__main#content {
+  height: 50%;
+}
+.body__content__main#content .body__content__main__landing {
+  height: 250%;
+}
 .body__content__main__landing {
   height: 150%;
+}
+.body__content__main__landing__arrow {
+  background: transparent;
+  border: none;
+  outline: none;
+  display: block;
+  font-size: 36pt;
+  cursor: pointer;
+  position: relative;
+  left: 45%;
+  transform: translateX(-45%);
+  margin-top: 5%;
+}
+.body__content__main__landing__arrow i {
+  transition: 0.3s;
+}
+.body__content__main__landing__arrow:hover i {
+  color: #D97C0C;
+  transform: scale(1.3);
+}
+.body__content__main__landing__buttons {
+  margin-top: 20%;
+  width: 100%;
+}
+.body__content__main__landing__buttons__button {
+  float: left;
+  display: block;
+  width: 20vw;
+  height: 14vw;
+  font-size: 1vw;
+  text-align: center;
+  padding-top: 5vw;
+  margin: 0 10%;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+.body__content__main__landing__buttons__button--execution {
+  background-color: #1a69d8;
+}
+.body__content__main__landing__buttons__button--execution:hover {
+  background-color: #3d84e8;
+}
+.body__content__main__landing__buttons__button--proof {
+  background-color: #ad0d10;
+}
+.body__content__main__landing__buttons__button--proof:hover {
+  background-color: #dc1114;
+}
+.body__content__main__landing__buttons__button:hover {
+  transform: scale(1.1);
+}
+.body__content__main__landing__button-content {
+  position: absolute;
+  width: 80vw;
+  height: 80vh;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 3;
+  display: none;
+  transition: opacity 0.3s linear;
+  opacity: 0;
+}
+.body__content__main__landing__button-content.opened {
+  display: block;
+}
+.body__content__main__landing__button-content.visually-opened {
+  opacity: 1;
+}
+.body__content__main__landing__button-content__content {
+  width: 94%;
+  height: 96%;
+  padding: 2% 3%;
+  overflow-y: scroll;
+}
+.body__content__main__landing__button-content__content__close {
+  background: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  z-index: 5;
+  right: -1.3%;
+  top: -2%;
+  cursor: pointer;
+}
+.body__content__main__landing__button-content__content__close i {
+  font-size: 24pt;
+  color: #D97C0C;
+  transition: 0.2s;
+}
+.body__content__main__landing__button-content__content__close i:hover {
+  color: #784507;
+}
+.body__content__main__landing__button-content__content::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+.body__content__main__landing__button-content__content::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.body__content__main__landing__button-content__content::-webkit-scrollbar-thumb {
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  width: 5px;
 }
 .body__content__main::-webkit-scrollbar {
   background-color: transparent;
@@ -160,6 +289,20 @@ html, body {
   background-color: #f8f8f8;
   border-radius: 15px;
   width: 5px;
+}
+
+.body__content__main {
+  overflow: hidden;
+}
+.body__content__main__landing__list__element__link {
+  color: #D97C0C;
+  transition: 0.2s;
+}
+.body__content__main__landing__list__element__link:hover {
+  color: #784507;
+}
+.body__content__main__landing__text {
+  width: 50%;
 }
 
 /*# sourceMappingURL=index.css.map */

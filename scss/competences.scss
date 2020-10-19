@@ -1,0 +1,49 @@
+@import "main";
+.body {
+  &__content {
+    &__main {
+      overflow: hidden;
+
+      &__landing {
+        &__titles {
+          float: left;
+        }
+
+        &__container {
+          width: 100%;
+          float: left;
+
+          &__table {
+            margin-top: 3%;
+
+            &__link {
+              transition: .2s;
+
+              &:hover {
+                color: $dark-orange;
+              }
+            }
+
+            &, th, td {
+              border: solid $white 2px;
+              border-collapse: collapse;
+            }
+
+            th, td {
+              padding: 15px;
+
+              &.orange {
+                text-align: center;
+              }
+            }
+          }
+
+          &__signature {
+            margin: 2% 0 0 8%;
+            float: left;
+          }
+        }
+      }
+    }
+  }
+}

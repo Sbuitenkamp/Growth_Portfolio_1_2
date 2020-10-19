@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <!--styles-->
-    <link rel="stylesheet" href="../css/research.css">
+    <link rel="stylesheet" href="../css/design.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../js/scroll.js"></script>
+    <script src="../js/toggle-button.js"></script>
     <title>Groeiportfolio Steven Buitenkamp</title>
 </head>
 <body>
@@ -23,7 +24,7 @@
                     <a class="body__content__header__dropdown__content__element" href="./concepting.html">Concepting</a>
                     <a class="body__content__header__dropdown__content__element body__content__header__element--active" href="./design.html">Multimedia<br>Design</a>
                     <a class="body__content__header__dropdown__content__element" href="./production.html">Multimedia<br>Production</a>
-                    <a class="body__content__header__dropdown__content__element" href="./teamwork.html">Teamwork</a>
+                    <a class="body__content__header__dropdown__content__element" href="./teamwork.html">Multidisciplinary<br>Teamwork</a>
                     <a class="body__content__header__dropdown__content__element" href="./growth.html">Growth and<br>Reflection</a>
                 </div>
             </div>
@@ -32,7 +33,36 @@
 
         <div class="body__content__main" id="content">
             <div class="body__content__main__landing">
-                <h1 class="h1">Placeholder</h1>
+                <h1 class="h1 body__content__main__landing__title">Multimedia Design</h1>
+                <h2 class="h4 orange">3 EC's</h2>
+                <h3 class="h3 body__content__main__landing__goals">
+                    Hoe kan ik een idee duidelijk maken als schets?
+                </h3>
+                <button class="body__content__main__landing__arrow" id="scroller"><i class="fa fa-arrow-down"></i></button>
+                <div class="body__content__main__landing__buttons">
+                    <div onclick="open_content('execution')" class="body__content__main__landing__buttons__button body__content__main__landing__buttons__button--execution">
+                        <h4 class="h2">Uitvoering</h4>
+                    </div>
+                    <div onclick="open_content('proof')" class="body__content__main__landing__buttons__button body__content__main__landing__buttons__button--proof">
+                        <h4 class="h2">Bewijsvoering</h4>
+                    </div>
+                </div>
+                <div class="body__content__main__landing__button-content" id="execution">
+                    <div class="body__content__main__landing__button-content__content">
+                        <button onclick="close_content('execution')" class="body__content__main__landing__button-content__content__close">
+                            <i class="fa fa-times-circle"></i>
+                        </button>
+                        <h3 class="h1 body__content__main__landing__button-content__title">Uitvoering</h3>
+                    </div>
+                </div>
+                <div class="body__content__main__landing__button-content" id="proof">
+                    <div class="body__content__main__landing__button-content__content">
+                        <button onclick="close_content('proof')" class="body__content__main__landing__button-content__content__close">
+                            <i class="fa fa-times-circle"></i>
+                        </button>
+                        <h3 class="h1 body__content__main__landing__button-content__title">Bewijsvoering</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
