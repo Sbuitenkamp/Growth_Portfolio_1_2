@@ -278,6 +278,12 @@ html, body {
           display: none;
           transition: opacity .3s linear;
           opacity: 0;
+          overflow: hidden;
+
+          //&#execution {
+          //  display: block;
+          //  opacity: 1;
+          //}
 
           &.opened {
             display: block;
@@ -287,30 +293,45 @@ html, body {
             opacity: 1;
           }
 
+          &__close {
+            background: $transparent-black;
+            height: 4%;
+            border: none;
+            outline: none;
+            position: absolute;
+            z-index: 6;
+            cursor: pointer;
+            float: right;
+            top: -.4%;
+            right: -.4%;
+
+            i {
+              font-size: 24pt;
+              color: $orange;
+              transition: .2s;
+
+              &:hover {
+                color: $dark-orange;
+              }
+            }
+          }
+
           &__content {
+            position: relative;
             width: 94%;
-            height: 96%;
+            max-height: 96%;
             padding: 2% 3%;
             overflow-y: scroll;
 
-            &__close {
-              background: transparent;
-              border: none;
-              outline: none;
-              position: absolute;
-              z-index: 5;
-              right: -1.3%;
-              top: -2%;
-              cursor: pointer;
+            &__text {
+              width: 50%;
+              float: left;
+              box-sizing: border-box;
+              padding: 0 5%;
+              min-height: 100vh;
 
-              i {
-                font-size: 24pt;
-                color: $orange;
-                transition: .2s;
-
-                &:hover {
-                  color: $dark-orange;
-                }
+              &--left {
+                border-right: solid $white 1px;
               }
             }
 
