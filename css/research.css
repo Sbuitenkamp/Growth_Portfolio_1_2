@@ -98,7 +98,7 @@ html, body {
   text-align: center;
   text-decoration: none;
   padding: 14px 16px;
-  transition: 0.1s;
+  transition: color 0.2s;
   outline: none;
 }
 .body__content__header__element--active {
@@ -120,7 +120,7 @@ html, body {
   text-decoration: none;
   padding: 14px 16px;
   display: block;
-  transition: 0.1s;
+  transition: color 0.2s;
   box-sizing: border-box;
   outline: none;
 }
@@ -140,7 +140,7 @@ html, body {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  transition: 0.1s;
+  transition: color 0.2s;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.9);
 }
