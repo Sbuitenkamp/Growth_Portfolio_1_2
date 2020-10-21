@@ -87,7 +87,7 @@ html, body {
 }
 .body__content__header {
   overflow: hidden;
-  margin-right: 3%;
+  margin-right: -5%;
   float: right;
   height: 7%;
   width: 25%;
