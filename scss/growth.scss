@@ -5,9 +5,16 @@
       &__landing {
         &__button-content {
           &__content {
-            overflow-y: hidden;
+            &--execution {
+              overflow-y: hidden;
+            }
 
             &__text {
+              &--proof {
+                width: 100%;
+                border: none;
+              }
+
               ul {
                 margin-left: -.5em;
 

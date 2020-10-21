@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "comfortaa";
   src: url("../fonts/Comfortaa-VariableFont_wght.ttf");
@@ -238,10 +237,6 @@ html, body {
   opacity: 0;
   overflow: hidden;
 }
-.body__content__main__landing__button-content#proof {
-  display: block;
-  opacity: 1;
-}
 .body__content__main__landing__button-content.opened {
   display: block;
 }
@@ -311,28 +306,17 @@ html, body {
 }
 
 .body__content__main__landing__button-content__content__text--left {
+  width: 100%;
+  border: none;
+}
+.body__content__main__landing__button-content__content__text--proof-left {
   border-right: none;
 }
-.body__content__main__landing__button-content__content__text--right {
+.body__content__main__landing__button-content__content__text--proof-right {
   border-left: solid #f8f8f8 2px;
 }
 .body__content__main__landing__button-content__content__text img {
   width: 90%;
-}
-.body__content__main__landing__button-content__content__text ul {
-  margin-left: -0.5em;
-}
-.body__content__main__landing__button-content__content__text ul li {
-  list-style-type: none;
-  margin: 2% 0;
-}
-.body__content__main__landing__button-content__content__text ul li:before {
-  content: "■";
-  color: #D97C0C;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
 
 /*# sourceMappingURL=design.css.map */

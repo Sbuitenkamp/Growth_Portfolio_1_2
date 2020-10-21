@@ -280,10 +280,11 @@ html, body {
           opacity: 0;
           overflow: hidden;
 
-          &#proof {
-            display: block;
-            opacity: 1;
-          }
+          // dev mode
+          //&#proof {
+          //  display: block;
+          //  opacity: 1;
+          //}
 
           &.opened {
             display: block;

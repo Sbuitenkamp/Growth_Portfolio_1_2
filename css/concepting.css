@@ -238,10 +238,6 @@ html, body {
   opacity: 0;
   overflow: hidden;
 }
-.body__content__main__landing__button-content#proof {
-  display: block;
-  opacity: 1;
-}
 .body__content__main__landing__button-content.opened {
   display: block;
 }
