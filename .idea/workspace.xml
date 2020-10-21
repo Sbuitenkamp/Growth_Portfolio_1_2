@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73259963-7cc3-49d0-95a6-4b320ae1d68f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/competences/growth.html" beforeDir="false" afterPath="$PROJECT_DIR$/competences/growth.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/competences/teamwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/competences/teamwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/growth.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/growth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/growth.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/growth.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/growth.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/growth.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,14 +20,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.870283">
+    <splitter split-orientation="horizontal" split-proportion="0.6975236">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/competences/teamwork.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="560">
-                  <caret line="88" column="56" selection-start-line="88" selection-start-column="56" selection-end-line="88" selection-end-column="56" />
+                <state relative-caret-position="261">
+                  <caret line="63" column="85" lean-forward="true" selection-start-line="63" selection-start-column="85" selection-end-line="63" selection-end-column="85" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/competences/growth.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="621">
+                  <caret line="88" column="199" selection-start-line="88" selection-start-column="199" selection-end-line="88" selection-end-column="199" />
                 </state>
               </provider>
             </entry>
@@ -69,8 +84,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
+                <state relative-caret-position="506">
                   <caret line="286" lean-forward="true" selection-start-line="286" selection-end-line="286" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/growth.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="161">
+                  <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -99,6 +123,7 @@
       <find>ECs</find>
       <find>/competences.html&quot;&gt;Competences</find>
       <find>#</find>
+      <find>-z</find>
     </findStrings>
     <replaceStrings>
       <replace>About</replace>
@@ -124,11 +149,9 @@
         <option value="$PROJECT_DIR$/scss/competences.scss" />
         <option value="$PROJECT_DIR$/competences.html" />
         <option value="$PROJECT_DIR$/js/scroll.js" />
-        <option value="$PROJECT_DIR$/scss/growth.scss" />
         <option value="$PROJECT_DIR$/scss/production.scss" />
         <option value="$PROJECT_DIR$/scss/teamwork.scss" />
         <option value="$PROJECT_DIR$/scss/concepting.scss" />
-        <option value="$PROJECT_DIR$/competences/growth.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/log.html" />
         <option value="$PROJECT_DIR$/scss/log.scss" />
@@ -140,10 +163,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/competences/research.html" />
         <option value="$PROJECT_DIR$/scss/design.scss" />
-        <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/competences/design.html" />
         <option value="$PROJECT_DIR$/competences/production.html" />
         <option value="$PROJECT_DIR$/competences/teamwork.html" />
+        <option value="$PROJECT_DIR$/competences/growth.html" />
+        <option value="$PROJECT_DIR$/scss/growth.scss" />
+        <option value="$PROJECT_DIR$/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -246,7 +271,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115258000" />
+    <option name="totallyTimeSpent" value="119353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -328,7 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/growth.scss" />
     <entry file="file://$PROJECT_DIR$/scss/production.scss" />
     <entry file="file://$PROJECT_DIR$/css/research.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -340,13 +364,6 @@
     <entry file="file://$PROJECT_DIR$/css/concepting.css" />
     <entry file="file://$PROJECT_DIR$/scss/teamwork.scss" />
     <entry file="file://$PROJECT_DIR$/scss/concepting.scss" />
-    <entry file="file://$PROJECT_DIR$/competences/growth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/competences.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -397,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/competences/research.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -446,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="286" lean-forward="true" selection-start-line="286" selection-end-line="286" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/competences/production.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -467,10 +470,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/competences/research.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/competences/teamwork.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="88" column="56" selection-start-line="88" selection-start-column="56" selection-end-line="88" selection-end-column="56" />
+        <state relative-caret-position="261">
+          <caret line="63" column="85" lean-forward="true" selection-start-line="63" selection-start-column="85" selection-end-line="63" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/competences/growth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="88" column="199" selection-start-line="88" selection-start-column="199" selection-end-line="88" selection-end-column="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/growth.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="286" lean-forward="true" selection-start-line="286" selection-end-line="286" />
         </state>
       </provider>
     </entry>

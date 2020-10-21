@@ -3,7 +3,30 @@
   &__content {
     &__main {
       &__landing {
+        &__button-content {
+          &__content {
+            overflow-y: hidden;
 
+            &__text {
+              ul {
+                margin-left: -.5em;
+
+                li {
+                  list-style-type: none;
+
+                  &:before {
+                    content: "\25A0";
+                    color: $orange;
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em;
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
