@@ -87,9 +87,8 @@ html, body {
 }
 .body__content__header {
   overflow: hidden;
-  margin-right: -5%;
   float: right;
-  height: 7%;
+  height: 6%;
   width: 25%;
 }
 .body__content__header__element {
@@ -109,7 +108,6 @@ html, body {
   color: #D97C0C;
 }
 .body__content__header__dropdown {
-  width: 36.4%;
   float: left;
   overflow: hidden;
   transition: 0.2s;
@@ -157,7 +155,7 @@ html, body {
 .body__content__main {
   width: 90%;
   float: right;
-  margin-top: 3%;
+  margin-top: 1%;
   height: 150%;
   overflow-y: scroll;
 }
@@ -303,6 +301,13 @@ html, body {
   background-color: #f8f8f8;
   border-radius: 15px;
   width: 5px;
+}
+
+.body__content__main {
+  height: 90%;
+}
+.body__content__main__landing {
+  height: 250%;
 }
 
 /*# sourceMappingURL=log.css.map */
