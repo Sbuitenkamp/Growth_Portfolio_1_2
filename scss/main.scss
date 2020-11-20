@@ -106,9 +106,8 @@ html, body {
 
     &__header {
       overflow: hidden;
-      margin-right: -5%;
       float: right;
-      height: 7%;
+      height: 6%;
       width: 25%;
 
       &__element {
@@ -131,7 +130,7 @@ html, body {
       }
 
       &__dropdown {
-        width: 36.4%;
+        //width: 36.4%;
         float: left;
         overflow: hidden;
         transition: .2s;
@@ -188,7 +187,7 @@ html, body {
     &__main {
       width: 90%;
       float: right;
-      margin-top: 3%;
+      margin-top: 1%;
       height: 150%;
       overflow-y: scroll;
 

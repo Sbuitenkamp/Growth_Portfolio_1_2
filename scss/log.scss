@@ -2,8 +2,10 @@
 .body {
   &__content {
     &__main {
-      &__landing {
+      height: 90%;
 
+      &__landing {
+        height: 250%;
       }
     }
   }
