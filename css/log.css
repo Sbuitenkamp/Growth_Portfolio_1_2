@@ -87,7 +87,6 @@ html, body {
 }
 .body__content__header {
   overflow: hidden;
-  margin-right: -5%;
   float: right;
   height: 7%;
   width: 25%;
@@ -131,7 +130,7 @@ html, body {
 .body__content__header__dropdown__content {
   display: none;
   position: absolute;
-  min-width: 160px;
+  min-width: 9.1%;
   z-index: 2;
   transition: 0.5s;
 }
@@ -303,6 +302,23 @@ html, body {
   background-color: #f8f8f8;
   border-radius: 15px;
   width: 5px;
+}
+
+.body__content__main {
+  height: 80%;
+}
+.body__content__main__landing {
+  min-height: 250%;
+}
+.body__content__main__landing__subtitle {
+  width: 70%;
+}
+.body__content__main__landing__logs {
+  width: 50%;
+  margin: 3%;
+}
+.body__content__main__landing__logs__log {
+  margin-bottom: 10%;
 }
 
 /*# sourceMappingURL=log.css.map */

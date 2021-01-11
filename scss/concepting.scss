@@ -4,20 +4,15 @@
     &__main {
       &__landing {
         &__button-content {
+          &#execution {
+            &__content {
+              &__text {
+                width: 100%;
+              }
+            }
+          }
           &__content {
             &__text {
-              &__cocd {
-                width: 90%;
-              }
-
-              &__idea {
-                width: 110%;
-                margin-left: -5%;
-
-                &-esmee {
-                  width: 90%;
-                }
-              }
 
               ul {
                 margin-left: -.5em;

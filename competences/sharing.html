@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--styles-->
+    <link rel="stylesheet" href="../css/teamwork.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/scroll.js"></script>
+    <script src="../js/toggle-button.js"></script>
+    <title>Groeiportfolio Steven Buitenkamp</title>
+</head>
+<body>
+<div class="body">
+    <div class="body__content">
+        <div class="body__content__header">
+            <a class="body__content__header__element" href="../index.html">Home</a>
+            <a class="body__content__header__element" href="../pages/about.html">About</a>
+            <div class="body__content__header__dropdown">
+                <a class="body__content__header__dropdown__drop-button" href="../pages/competences.html">Competences
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="body__content__header__dropdown__content">
+                    <a class="body__content__header__dropdown__content__element" href="./research.html">Research &<br>Innovation</a>
+                    <a class="body__content__header__dropdown__content__element" href="./concepting.html">Concepting</a>
+                    <a class="body__content__header__dropdown__content__element" href="./design.html">Multimedia<br>Design</a>
+                    <a class="body__content__header__dropdown__content__element" href="./production.html">Multimedia<br>Production</a>
+                    <a class="body__content__header__dropdown__content__element" href="./management.html">Project<br>Management</a>
+                    <a class="body__content__header__dropdown__content__element" href="./growth.html">Growth and<br>Reflection</a>
+                    <a class="body__content__header__dropdown__content__element body__content__header__element--active" href="./sharing.html">Sharing</a>
+                </div>
+            </div>
+            <a class="body__content__header__element" href="../pages/log.html">Activity Log</a>
+        </div>
+
+        <div class="body__content__main" id="content">
+            <div class="body__content__main__landing">
+                <h1 class="h1 body__content__main__landing__title">Sharing</h1>
+                <h2 class="h4 orange">3 EC's</h2>
+                <h3 class="h3 body__content__main__landing__goals">
+                    Hoe kan ik anderen interesseren in het onderwerp dat ik presenteer.
+                    <br><br>
+                    Waar moet ik op letten als ik een onderwerp uitleg?
+                </h3>
+                <button class="body__content__main__landing__arrow" id="scroller"><i class="fa fa-arrow-down"></i></button>
+                <div class="body__content__main__landing__buttons">
+                    <div onclick="open_content('execution')" class="body__content__main__landing__buttons__button body__content__main__landing__buttons__button--execution">
+                        <h4 class="h2">Uitvoering</h4>
+                    </div>
+                    <div onclick="open_content('proof')" class="body__content__main__landing__buttons__button body__content__main__landing__buttons__button--proof">
+                        <h4 class="h2">Bewijsvoering</h4>
+                    </div>
+                </div>
+                <div class="body__content__main__landing__button-content" id="execution">
+                    <button onclick="close_content('execution')" class="body__content__main__landing__button-content__close">
+                        <i class="fa fa-window-close"></i>
+                    </button>
+                    <div class="body__content__main__landing__button-content__content">
+                        <h3 class="h1 body__content__main__landing__button-content__content__title">Uitvoering</h3>
+                        <div class="body__content__main__landing__button-content__content__text body__content__main__landing__button-content__content__text--left">
+                            <h4 class="h3">Hoe kan ik anderen interesseren in het onderwerp dat ik presenteer.</h4>
+                            <h5 class="h5 orange">Leer-subdoelen</h5>
+                            <p class="normal-text">
+                            </p>
+                            <h5 class="h5 orange">Activiteit</h5>
+                            <p class="normal-text">
+                            </p>
+                            <h5 class="h5 orange">Uitkomst</h5>
+                            <p class="normal-text">
+                            </p>
+                            <h5 class="h5 orange">Reflectie</h5>
+                            <p class="normal-text">
+                            </p>
+                        </div>
+                        <div class="body__content__main__landing__button-content__content__text body__content__main__landing__button-content__content__text--right">
+                            <h4 class="h3">Waar moet ik op letten als ik een onderwerp uitleg?</h4>
+                            <h5 class="h5 orange">Leer-subdoelen</h5>
+                            <p class="normal-text">
+                            </p>
+                            <h5 class="h5 orange">Activiteit</h5>
+                            <p class="normal-text">
+                            </p>
+                            <h5 class="h5 orange">Uitkomst</h5>
+                            <p class="normal-text">
+                            </p>
+                            <h5 class="h5 orange">Reflectie</h5>
+                            <p class="normal-text">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="body__content__main__landing__button-content" id="proof">
+                    <button onclick="close_content('proof')" class="body__content__main__landing__button-content__close">
+                        <i class="fa fa-window-close"></i>
+                    </button>
+                    <div class="body__content__main__landing__button-content__content body__content__main__landing__button-content__content--proof">
+                        <h3 class="h1 body__content__main__landing__button-content__title">Bewijsvoering</h3>
+                        <div class="body__content__main__landing__button-content__content__text body__content__main__landing__button-content__content__text--proof">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="body__background" id="background" src="../img/background.jpg" alt="background">
+</div>
+</body>
+</html>

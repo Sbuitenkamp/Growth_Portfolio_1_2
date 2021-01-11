@@ -2,8 +2,20 @@
 .body {
   &__content {
     &__main {
+      height: 80%;
       &__landing {
+        min-height: 250%;
+        &__subtitle {
+          width: 70%;
+        }
+        &__logs {
+          width: 50%;
+          margin: 3%;
 
+          &__log {
+            margin-bottom: 10%;
+          }
+        }
       }
     }
   }

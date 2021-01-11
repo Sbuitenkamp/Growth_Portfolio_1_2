@@ -6,22 +6,23 @@
         &__button-content {
           &__content {
             &__text {
-              &__tree {
-                width: 48%;
-                margin: 1%;
-                float: left;
-              }
+              width: 33%;
 
               &__poster {
                 width: 100%;
               }
 
               &--left {
-                border-right: none;
+                padding: 0 5% 0 0;
+              }
+
+              &--middle {
+                padding: 0 2.5%;
               }
 
               &--right {
                 border-left: solid $white 2px;
+                padding: 0 0 0 5%;
               }
             }
           }
