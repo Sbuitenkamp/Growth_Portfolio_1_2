@@ -5,14 +5,12 @@
       &__landing {
         &__button-content {
           &__content {
-            &--execution {
-              overflow-y: hidden;
-            }
-
             &__text {
-              &--proof {
-                width: 100%;
+              &--left {
                 border: none;
+              }
+              &--right {
+                border-left: solid $white 1px;
               }
             }
           }

@@ -4,10 +4,15 @@
     &__main {
       &__landing {
         &__button-content {
-          &#execution {
-            // wacky ID's
-            .body__content__main__landing__button-content__content__text {
-              width: 65%;
+          &__content {
+            &__text {
+              &--left {
+                border: none;
+              }
+
+              &--right {
+                border-left: solid $white 1px;
+              }
             }
           }
         }

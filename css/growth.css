@@ -325,12 +325,11 @@ html, body {
   width: 5px;
 }
 
-.body__content__main__landing__button-content__content--execution {
-  overflow-y: hidden;
-}
-.body__content__main__landing__button-content__content__text--proof {
-  width: 100%;
+.body__content__main__landing__button-content__content__text--left {
   border: none;
+}
+.body__content__main__landing__button-content__content__text--right {
+  border-left: solid #f8f8f8 1px;
 }
 
 /*# sourceMappingURL=growth.css.map */

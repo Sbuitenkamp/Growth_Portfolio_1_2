@@ -325,8 +325,11 @@ html, body {
   width: 5px;
 }
 
-.body__content__main__landing__button-content#execution .body__content__main__landing__button-content__content__text {
-  width: 65%;
+.body__content__main__landing__button-content__content__text--left {
+  border: none;
+}
+.body__content__main__landing__button-content__content__text--right {
+  border-left: solid #f8f8f8 1px;
 }
 
 /*# sourceMappingURL=research.css.map */
