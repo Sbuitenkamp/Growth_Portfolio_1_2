@@ -7,7 +7,7 @@
           &__content {
             &__text {
               &--left {
-                width: 100%;
+                width: 65%;
                 border: none;
               }
 
@@ -17,10 +17,6 @@
 
               &--proof-right {
                 border-left: solid $white 2px;
-              }
-
-              img {
-                width: 90%;
               }
             }
           }

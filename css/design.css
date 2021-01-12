@@ -326,7 +326,7 @@ html, body {
 }
 
 .body__content__main__landing__button-content__content__text--left {
-  width: 100%;
+  width: 65%;
   border: none;
 }
 .body__content__main__landing__button-content__content__text--proof-left {
@@ -334,9 +334,6 @@ html, body {
 }
 .body__content__main__landing__button-content__content__text--proof-right {
   border-left: solid #f8f8f8 2px;
-}
-.body__content__main__landing__button-content__content__text img {
-  width: 90%;
 }
 
 /*# sourceMappingURL=design.css.map */
