@@ -253,6 +253,10 @@ html, body {
   opacity: 0;
   overflow: hidden;
 }
+.body__content__main__landing__button-content#execution {
+  display: block;
+  opacity: 1;
+}
 .body__content__main__landing__button-content.opened {
   display: block;
 }
@@ -321,8 +325,8 @@ html, body {
   width: 5px;
 }
 
-.body__content__main__landing__button-content#execution__content__text {
-  width: 100%;
+.body__content__main__landing__button-content#execution .body__content__main__landing__button-content__content__text {
+  width: 65%;
 }
 
 /*# sourceMappingURL=concepting.css.map */

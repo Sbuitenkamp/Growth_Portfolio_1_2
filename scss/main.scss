@@ -299,10 +299,10 @@ html, body {
           overflow: hidden;
 
           // dev mode
-          //&#proof {
-          //  display: block;
-          //  opacity: 1;
-          //}
+          &#execution {
+            display: block;
+            opacity: 1;
+          }
 
           &.opened {
             display: block;
