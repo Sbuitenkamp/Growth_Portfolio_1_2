@@ -1,0 +1,21 @@
+@import "main";
+.body {
+  &__content {
+    &__main {
+      &__landing {
+        &__button-content {
+          &__content {
+            &__text {
+              &--left {
+                border: none;
+              }
+              &--right {
+                border-left: solid $white 1px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
