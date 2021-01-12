@@ -61,6 +61,22 @@ html, body {
   color: #D97C0C;
 }
 
+.list {
+  margin-left: -0.5em;
+}
+.list__element {
+  list-style-type: none;
+  margin: 2% 0;
+}
+.list__element:before {
+  content: "■";
+  color: #D97C0C;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .body {
   margin: 0 auto;
   height: 100vh;
@@ -311,21 +327,6 @@ html, body {
 .body__content__main__landing__button-content__content__text--proof {
   width: 100%;
   border: none;
-}
-.body__content__main__landing__button-content__content__text ul {
-  margin-left: -0.5em;
-}
-.body__content__main__landing__button-content__content__text ul li {
-  list-style-type: none;
-  margin: 2% 0;
-}
-.body__content__main__landing__button-content__content__text ul li:before {
-  content: "■";
-  color: #D97C0C;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
 
 /*# sourceMappingURL=growth.css.map */

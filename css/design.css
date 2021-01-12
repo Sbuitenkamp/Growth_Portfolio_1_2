@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "comfortaa";
   src: url("../fonts/Comfortaa-VariableFont_wght.ttf");
@@ -58,6 +59,22 @@ html, body {
 
 .orange {
   color: #D97C0C;
+}
+
+.list {
+  margin-left: -0.5em;
+}
+.list__element {
+  list-style-type: none;
+  margin: 2% 0;
+}
+.list__element:before {
+  content: "■";
+  color: #D97C0C;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .body {

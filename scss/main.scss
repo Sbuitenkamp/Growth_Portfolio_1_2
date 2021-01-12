@@ -77,6 +77,25 @@ html, body {
   color: $orange;
 }
 
+// default list style ul.list>li.list__element
+.list {
+  margin-left: -.5em;
+
+  &__element {
+    list-style-type: none;
+    margin: 2% 0;
+
+    &:before {
+      content: "\25A0";
+      color: $orange;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+}
+
 // scrolling header
 .body {
   margin: 0 auto;
