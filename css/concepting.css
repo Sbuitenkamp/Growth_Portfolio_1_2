@@ -354,5 +354,9 @@ html, body {
 .body__content__main__landing__button-content#execution .body__content__main__landing__button-content__content__text {
   width: 65%;
 }
+.body__content__main__landing__button-content__content__text img {
+  margin-left: -15%;
+  width: 122%;
+}
 
 /*# sourceMappingURL=concepting.css.map */
