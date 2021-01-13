@@ -1,5 +1,6 @@
 // variables
 $white: #f8f8f8;
+$grey: darken($white, 40%);
 $black: #1e1e1e;
 $transparent-black: rgba(0, 0, 0, 0.9);
 $orange: #D97C0C;
@@ -65,6 +66,11 @@ html, body {
 .normal-text {
   font-weight: 100;
   font-size: 12pt;
+}
+
+.image-caption {
+  color: $grey;
+  font-size: 10pt;
 }
 
 * {
@@ -299,7 +305,7 @@ html, body {
           overflow: hidden;
 
           // dev mode
-          &#execution {
+          &#proof {
             display: block;
             opacity: 1;
           }

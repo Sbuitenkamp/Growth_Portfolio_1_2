@@ -52,6 +52,11 @@ html, body {
   font-size: 12pt;
 }
 
+.image-caption {
+  color: #929292;
+  font-size: 10pt;
+}
+
 * {
   font-family: "comfortaa", sans-serif;
   color: #f8f8f8;
@@ -253,7 +258,7 @@ html, body {
   opacity: 0;
   overflow: hidden;
 }
-.body__content__main__landing__button-content#execution {
+.body__content__main__landing__button-content#proof {
   display: block;
   opacity: 1;
 }
@@ -323,6 +328,26 @@ html, body {
   background-color: #f8f8f8;
   border-radius: 15px;
   width: 5px;
+}
+
+.body__content__main__landing__button-content__content__text .table {
+  width: 130%;
+  font-size: 10pt;
+  margin-left: -10%;
+}
+.body__content__main__landing__button-content__content__text .table td, .body__content__main__landing__button-content__content__text .table th {
+  border: solid #f8f8f8 1px;
+}
+.body__content__main__landing__button-content__content__text img {
+  width: 100%;
+  margin-top: 4%;
+}
+.body__content__main__landing__button-content__content__text--left {
+  border: none;
+}
+.body__content__main__landing__button-content__content__text--right {
+  border-left: solid #f8f8f8 1px;
+  padding-bottom: 1%;
 }
 
 /*# sourceMappingURL=sharing.css.map */

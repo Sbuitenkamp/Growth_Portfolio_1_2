@@ -52,6 +52,11 @@ html, body {
   font-size: 12pt;
 }
 
+.image-caption {
+  color: #929292;
+  font-size: 10pt;
+}
+
 * {
   font-family: "comfortaa", sans-serif;
   color: #f8f8f8;
@@ -253,7 +258,7 @@ html, body {
   opacity: 0;
   overflow: hidden;
 }
-.body__content__main__landing__button-content#execution {
+.body__content__main__landing__button-content#proof {
   display: block;
   opacity: 1;
 }

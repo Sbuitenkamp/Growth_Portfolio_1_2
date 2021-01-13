@@ -6,7 +6,28 @@
         &__button-content {
           &__content {
             &__text {
+              .table {
+                width: 130%;
+                font-size: 10pt;
+                margin-left: -10%;
 
+                td, th {
+                  border: solid $white 1px;
+                }
+              }
+              img {
+                width: 100%;
+                margin-top: 4%;
+              }
+
+              &--left {
+                border: none;
+              }
+
+              &--right {
+                border-left: solid $white 1px;
+                padding-bottom: 1%;
+              }
             }
           }
         }
