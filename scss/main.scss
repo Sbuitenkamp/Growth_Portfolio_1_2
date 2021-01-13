@@ -87,6 +87,24 @@ html, body {
 .list {
   margin-left: -.5em;
 
+  &--ordered {
+    list-style: none;
+    counter-reset: li;
+
+    &__element {
+      counter-increment: li;
+
+      &:before {
+        content: counter(li) ".";
+        color: $orange;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em
+      }
+    }
+  }
+
   &__element {
     list-style-type: none;
     margin: 2% 0;
@@ -357,6 +375,14 @@ html, body {
 
               &--left {
                 border-right: solid $white 1px;
+              }
+
+              .table {
+                font-size: 10pt;
+
+                td, th {
+                  border: solid $white 1px;
+                }
               }
             }
 

@@ -69,6 +69,21 @@ html, body {
 .list {
   margin-left: -0.5em;
 }
+.list--ordered {
+  list-style: none;
+  counter-reset: li;
+}
+.list--ordered__element {
+  counter-increment: li;
+}
+.list--ordered__element:before {
+  content: counter(li) ".";
+  color: #D97C0C;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
 .list__element {
   list-style-type: none;
   margin: 2% 0;
@@ -304,6 +319,12 @@ html, body {
 }
 .body__content__main__landing__button-content__content__text--left {
   border-right: solid #f8f8f8 1px;
+}
+.body__content__main__landing__button-content__content__text .table {
+  font-size: 10pt;
+}
+.body__content__main__landing__button-content__content__text .table td, .body__content__main__landing__button-content__content__text .table th {
+  border: solid #f8f8f8 1px;
 }
 .body__content__main__landing__button-content__content::-webkit-scrollbar {
   background-color: transparent;
