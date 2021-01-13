@@ -9,8 +9,18 @@
               &--left {
                 border: none;
               }
+
+              &--proof {
+                width: 65%;
+              }
+
               &--right {
                 border-left: solid $white 1px;
+              }
+
+              img {
+                width: 100%;
+                margin-top: 4%;
               }
             }
           }

@@ -368,5 +368,15 @@ html, body {
   border-left: solid #f8f8f8 2px;
   padding: 0 0 0 5%;
 }
+.body__content__main__landing__button-content__content__text--proof {
+  width: 65%;
+}
+.body__content__main__landing__button-content__content__text .img-container {
+  margin-bottom: 4%;
+}
+.body__content__main__landing__button-content__content__text .img-container img {
+  width: 100%;
+  margin-top: 1%;
+}
 
 /*# sourceMappingURL=production.css.map */
