@@ -62,45 +62,106 @@
                             <h4 class="h3">Ik wil leren om snel een level te maken in Unity met Pro Builder.</h4>
                             <h5 class="h5 orange">Leer-subdoelen</h5>
                             <p class="normal-text">
+                                Hoe maak ik een <span class="orange">kamer</span> met <span class="orange">Pro Builder</span>?
+                                <br><br>
+                                Hoe <span class="orange">verander</span> ik de <span class="orange">vorm</span> van de <span class="orange">kamer</span>?
                             </p>
                             <h5 class="h5 orange">Activiteit</h5>
                             <p class="normal-text">
+                                Ik was eerst van plan om een kamer te maken met losse planes in Unity. maar toen zag ik op youtube meerdere tutorials over iets genaamd "Pro Builder". Hiermee heb je veel meer controle over het manipuleren van een vorm. Je kan bijvoorbeeld alleen een rand of hoek manipuleren in plaats van een hele kant.
+                                <br><br>
+                                Ik heb hiermee een eerste kamer aangemaakt. Dit heb ik gedaan door eerst een vierkant te maken. Daarna heb ik met een van de tools van Pro Builder een vierkant in het midden van de bovenste face losgemaakt van de originele vorm. Daarna heb ik de rest van de vorm omhoog getrokken om zo de muren te maken. Toen heb ik een nieuwe vorm gemaakt en deze als plafond ingesteld.
+                                <br><br>
+                                Nu heb ik dus 3 losse elementen die samen de kamer maken:
+                            </p>
+                            <ul class="list">
+                                <li class="list__element">De vloer</li>
+                                <li class="list__element">De muren</li>
+                                <li class="list__element">Het plafond</li>
+                            </ul>
+                            <p class="normal-text">
+                                Daarna kwam ik erachter dat ik bepaalde faces (kanten) kon selecteren en deze kon verwijderen. Op deze manier kon ik de faces die niet gebruikt werden (aan de buitenkant) verwijderen en hoeven deze dus ook niet ingerenderd te worden. Dit was de eerste kamer van onze game.
+                                <br><br>
+                                Toen ik eenmaal een beetje een opzet van de eerste kamer had heb ik deze gekopieërd en verlengd door een face aan te trekken en de vloer en het dak mee te nemen.
                             </p>
                             <h5 class="h5 orange">Uitkomst</h5>
                             <p class="normal-text">
+                                Ik heb uiteindelijk 3 kamers gemaakt van de game:
+                            </p>
+                            <ul class="list">
+                                <li class="list__element">De woonkamer</li>
+                                <li class="list__element">De gang</li>
+                                <li class="list__element">De keuken</li>
+                            </ul>
+                            <p class="normal-text">
+                                In de keuken heb ik ook een aanrecht en keukenkastjes gemaakt met Pro Builder. In het keukenblad heb ik een gootsteen gemaakt door er een apart vierkantje van te maken en deze naar beneden te drukken.
                             </p>
                             <h5 class="h5 orange">Reflectie</h5>
                             <p class="normal-text">
+                                <i class="orange">Ik weet nu hoe je makkelijk een kamer kan maken met Pro Builder. Ik kan ook heel gemakkelijk een vorm manipuleren om verschillende objecten te maken of bestaande objecten aan te passen.</i>
                             </p>
                         </div>
                         <div class="body__content__main__landing__button-content__content__text body__content__main__landing__button-content__content__text--middle">
                             <h4 class="h3">Ik wil leren om mijn levels correct te belichten.</h4>
                             <h5 class="h5 orange">Leer-subdoelen</h5>
                             <p class="normal-text">
+                                Hoe laat ik <span class="orange">buitenlicht</span> van de <span class="orange">ramen</span> af komen?
+                                <br><br>
+                                Hoe maak ik het <span class="orange">licht</span> in de kamers <span class="orange">natuurlijk</span>?
                             </p>
                             <h5 class="h5 orange">Activiteit</h5>
                             <p class="normal-text">
+                                Toen ik het plafond in de kamer zette voor de eerste keer werd het helemaal donker. Dit komt doordat Unity scene's standaard met een directional light. Een directional light is eigenlijk een soort zon die in de lucht zweeft. Dus die heb ik er eerst uitgehaald en daarna heb ik een spotlight gebruikt. Een spotlight is een lamp die een richting op schijnt maar wel een instelbare radius. Dit heb ik gebruikt voor de belichting in de eerste paar versies van de game.
+                                <br><br>
+                                Toen heb ik ramen toegevoegd. De ramen zijn blauwe planes met een emission. Emission is een soort gloei effect. Maar emission geeft zelf geen licht af. Dus heb ik een gesprek gehad met een kennis van een van mijn groepsleden die zelf veel met game design doet. Hij raadde mij aan om aan het raam een point light te geven. Een point light is eigenlijk een soort lampen pit. Die schijnt alle kanten rond. Ik heb aan die point light dezelfde blauwe kleur gegeven als het raam en dat geeft het effect dat er licht van buiten komt.
+                                <br><br>
+                                Het stukje met de ramen gaf mij het idee om ook point lights te gebruiken op de lampen van het plafond en de sta lamp die nu ook in de game staat.
                             </p>
                             <h5 class="h5 orange">Uitkomst</h5>
                             <p class="normal-text">
+                                Door point lights te gebruiken en deze toe te voegen aan ramen krijg je een effect van light van buiten.
+                                <br><br>
+                                Door point lights toe te voegen aan plafondlampen en sta lampen is het licht natuurlijk en geloofd je brein dat het licht ook mogelijk is.
                             </p>
                             <h5 class="h5 orange">Reflectie</h5>
                             <p class="normal-text">
+                                <i class="orange">Door licht objecten toe te voegen aan een raam krijg je het effect dat er dus licht van buiten komt.</i>
+                                <br><br>
+                                <i class="orange">Door licht objecten aan een object toe te voegen aan lamp objecten is het licht geloofwaardig en dus natuurlijk.</i>
                             </p>
                         </div>
                         <div class="body__content__main__landing__button-content__content__text body__content__main__landing__button-content__content__text--right">
                             <h4 class="h3">Ik wil leren om audio toe te voegen in onze game.</h4>
                             <h5 class="h5 orange">Leer-subdoelen</h5>
                             <p class="normal-text">
+                                Hoe kan ik <span class="orange">ondertiteling samen</span> laten lopen met de <span class="orange">audio</span>?
+                                <br><br>
+                                Hoe kan ik <span class="orange">verschillende</span> geluiden laten afspelen vanaf <span class="orange">1 audiobron</span>?
                             </p>
                             <h5 class="h5 orange">Activiteit</h5>
                             <p class="normal-text">
+                                Toen ik de eerste audio files binnen kreeg moest ik eerst uitzoeken hoe audio nou precies werkt in Unity. In unity moet je aan een object een audiobron toevoegen en deze audiobron moet dan een audioclip krijgen. Deze audioclip is je .mp4 of .wav bestand.
+                                <br><br>
+                                Daarna moest ik een manier vinden om 1 audiobron verschillende audioclips af te laten spelen. Dit heb ik kunnen bereiken door de audio clips die ik nodig had in een variabele te stoppen en de ingebouwde functie van de audiobron te gebruiken. Hier kun je het audioclipje dat je meegeeft af laten spelen vanuit de geselecteerde audiobron. Nu kan Oma Jansje praten alleen heeft zij nog geen ondertiteling.
+                                <br><br>
+                                Om ondertiteling te maken die evenlang op het scherm is als de voice line is moet ik iets gebruiken genaamd een coroutine. Coroutine is iets waar je een bepaalde voorwaarde aan geeft en de coroutine wacht dan totdat die voorwaarde voltooid is en doet dan pas de code uitvoeren. Hiermee kon ik wachten todat Oma Jansje uitgesproken was en daarna kon ik de ondertiteling weghalen.
+                                <br><br>
+                                Het gebruik van coroutines is mij uitgelegd door dezelfde kennis van mijn groepsgenoot die mij geholpen heeft met het licht.
                             </p>
                             <h5 class="h5 orange">Uitkomst</h5>
-                            <p class="normal-text">
-                            </p>
+                            <p class="normal-text">Met de eerste iteratie van geluid in de game heb ik de volgende geluiden toe kunnen voegen:</p>
+                            <ul class="list">
+                                <li class="list__element">De radio</li>
+                                <li class="list__element">De tv</li>
+                                <li class="list__element">De voetstappen (met extra scripting om ervoor te zorgen dat ze alleen afspelen als de speler loopt)</li>
+                                <li class="list__element">De gieter (gescript om te spelen wanneer er water aan een plant gegeven wordt)</li>
+                                <li class="list__element">De deur (tussen kamers)</li>
+                                <li class="list__element">De deurbel</li>
+                            </ul>
+                            <p class="normal-text">Daarna, toen ik uitgevonden had om verschillende geluiden vanuit 1 audiobron te laten komen en geleerd heb om met coroutines te werken, kon ik Oma Jansje laten spreken met ondertiteling.</p>
                             <h5 class="h5 orange">Reflectie</h5>
                             <p class="normal-text">
+                                <i class="orange">Ik heb veel geleerd over audiobronnen en hoe ik deze op verschillende manier kan manipuleren door bijvoorbeeld verschillende geluidsfragmenten af te laten spelen vanuit 1 bron of om andere dingen samen te laten lopen met het geluid.</i>
                             </p>
                         </div>
                     </div>
