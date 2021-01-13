@@ -7,5 +7,3 @@ Om dit portfolio te bekijken volg deze stappen:
     - Opera
     - Safari (kan problemen met de header vertonen maar het hele portfolio is wel compleet te lezen)
  3. het hele portfolio (inclusief bewijsvoering per competentie) is te navigeren via de browser. Dit textbestand kan nu gesloten worden.
-
-Er zijn PDF varianten gemaakt voor administratieve doeleinden, maar deze hebben weinig tot geen opmaak. De site is bedoelt voor de beoordeling.
